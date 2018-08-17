@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px){
+	.logo,.navbar,.oculars{
+		display: flex;
+		justify-content: center;
+	}
+}
+@media screen and (max-width: 992px){
+	.menu__butt{
+		display: block;
+	}
+	.navbar__nav{
+		display: none;
+	}
+	.logo,.navbar,.oculars,.mem__img{
+		display: flex;
+		justify-content: center;
+	}
+	.featured__item{
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 768px){
+	.names__item{
+		margin-bottom: 30px;
+	}
+	.names{
+		flex-direction: column;
+		justify-content: center;
+	}
+}
